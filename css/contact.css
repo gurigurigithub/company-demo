@@ -1,0 +1,28 @@
+.content-tr{
+  height: 7rem;
+}
+.content-th{
+  width: 150px;
+}
+.content-td{
+  width: 480px;
+}
+
+
+/* id="button"を狙ってCSSをつける */
+#button {
+  background-color: #B1B1B1;
+  width: 55px;
+  height: 45px;
+  font-size: 20px;
+}
+
+/* hoverさせたいやつを狙って、:hoverってやると、hoverしたときのCSSをつけられる */
+/* http://webfeelfree.com/mouseover-css-hover/ */
+#button:hover {
+  background-color: #F5B4B3;
+}
+
+/* 綺麗にできてるじゃん！！その調子だね😁 */
+/* ぐりならできるよ */
+/* 継続は力なりだから、これからかもがんばって */

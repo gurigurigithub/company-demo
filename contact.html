@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>株式会社DIVE</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="index.html">
+        <h1 id="logo">INGRID</h1>
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="contact.html">事業内容</a></li>
+            <li class="point"><a href="cuntact.html">会社概要</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="content">
+        <table class="">
+          <tr class="content-tr">
+            <th class="content-th">
+              <label for="name">名前</label>
+            </th>
+              <td>
+                <input class="content-td" type="text" id="name" name="user_name">
+              </td>
+          </tr>
+          <tr class="content-tr">
+            <th class="content-th">
+              <label for="mail">アドレス</label>
+            </th>
+              <td>
+                <input class="content-td" type="email" id="mail" name="user_email">
+              </td>
+          </tr>
+          <tr class="content-tr">
+              <th class="content-th">
+                <label for="sex">性別</label>
+              </th>
+                <td>
+                  <input type="checkbox" name=“sex” value="1">男
+                  <input type="checkbox" name=“sex” value="2">女
+                </td>
+          </tr>
+          <tr class="content-tr">
+            <th class="content-th">
+              <label for="msg">お問合わせ内容</label>
+            </th>
+                <td>
+                  <input class="content-td" type="msg" id="msg" name="msg">
+                </td>
+          </tr>
+          <tr>
+            <th>
+              <td>
+                <!-- ↓にid="button"を付与して、→のcontact.cssで -->
+                <input type="submit" name="button1" value="送信" id="button">
+              </td>
+            </th>
+          </tr>
+        </table>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 INGRID INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+</body>
+</html>
