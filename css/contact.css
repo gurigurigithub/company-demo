@@ -11,7 +11,7 @@
 
 /* id="button"を狙ってCSSをつける */
 #button {
-  background-color: #B1B1B1;
+  background-color: #bcecd8;
   width: 55px;
   height: 45px;
   font-size: 20px;
@@ -20,7 +20,8 @@
 /* hoverさせたいやつを狙って、:hoverってやると、hoverしたときのCSSをつけられる */
 /* http://webfeelfree.com/mouseover-css-hover/ */
 #button:hover {
-  background-color: #F5B4B3;
+  opacity: 0.6;
+  background-color: #bcecd8;
 }
 
 /* 綺麗にできてるじゃん！！その調子だね😁 */
